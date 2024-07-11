@@ -1,0 +1,85 @@
+body {
+  display: block;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: yellow;
+  background-position: center;
+  text-align: center;
+}
+
+nav {
+  background-color: red;
+}
+
+.navbar-brand img {
+  max-height: 70px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: yellow;
+}
+
+.navbar-nav .nav-link {
+  color: black; 
+  font-size: 18px;
+  margin: auto 3px;
+  text-decoration: none; 
+}
+
+nav ul li a {
+  color: yellow;
+  font-size: 22px;
+  margin: auto 10px;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+section {
+  padding-top: 50px;
+}
+
+section h1 {
+  text-transform: uppercase;
+  font-weight: 1500;
+  padding-top: 100px;
+  font-size: 60px;
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+section h2 {
+  text-transform: uppercase;
+  font-weight: 1000;
+  padding-top: 30px;
+  color: ;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+ 
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
